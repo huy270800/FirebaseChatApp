@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581974185424",
+    "project_id": "graded-exercise-ae00b",
+    "storage_bucket": "graded-exercise-ae00b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581974185424:android:6e85dd5f65a2d6c83615d5",
+        "android_client_info": {
+          "package_name": "square.ball.firebasechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581974185424-qvroujjds3as2pch6ufmsh1lj5hav7ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyDkpncpzixMBj3FjPP9vkhCozLEZufzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581974185424-qvroujjds3as2pch6ufmsh1lj5hav7ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
