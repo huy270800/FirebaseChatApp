@@ -67,7 +67,7 @@
                 android:fontFamily="sans-serif"
                 android:layout_weight="1"
                 android:inputType="text"
-                android:background="@color/colorTextBackground"
+                android:background="@color/colorTextBackGround"
                 android:hint="@string/type_message"
                 android:padding="12dp"
                 android:textColor="@color/colorText" />

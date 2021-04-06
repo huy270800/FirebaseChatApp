@@ -8,12 +8,12 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
+import com.codingwithme.firebasechat.adapter.UserAdapter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_users.*
 import square.ball.firebasechatapp.R
-import square.ball.firebasechatapp.adapter.UserAdapter
 import square.ball.firebasechatapp.model.User
 
 class UsersActivity : AppCompatActivity() {
