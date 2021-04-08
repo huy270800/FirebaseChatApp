@@ -18,16 +18,21 @@ import square.ball.firebasechatapp.model.User
 
 class UsersActivity : AppCompatActivity() {
     var userList = ArrayList<User>()
+    private lateinit var auth: FirebaseAuth
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
+        auth = FirebaseAuth.getInstance()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_users)
 
         userRecyclerView.layoutManager = LinearLayoutManager(this,LinearLayout.VERTICAL, false)
 
 
-        imgBack.setOnClickListener{
-            onBackPressed()
+        btnLogout.setOnClickListener{
+           auth.signOut()
+            val intent = Intent(this@UsersActivity , LoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         imgProfile.setOnClickListener{

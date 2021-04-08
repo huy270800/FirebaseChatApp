@@ -24,15 +24,15 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         auth = FirebaseAuth.getInstance()
-        firebaseUser = auth.currentUser!!
+//        firebaseUser = auth.currentUser!!
 
         //Check if user login then navigate to user screen
 
-        if(firebaseUser != null){
-            val intent = Intent(this@LoginActivity, UsersActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+//        if(firebaseUser != null){
+//            val intent = Intent(this@LoginActivity, UsersActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//        }
 
         btnLogin.setOnClickListener{
             val email = etEmail.text.toString()
@@ -62,5 +62,6 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
     }
 }
