@@ -23,7 +23,7 @@ import com.google.firebase.storage.UploadTask
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.android.synthetic.main.activity_profile.userImage
 import kotlinx.android.synthetic.main.activity_users.*
-import kotlinx.android.synthetic.main.activity_users.imgBack
+
 import square.ball.firebasechatapp.R
 import square.ball.firebasechatapp.model.User
 import java.io.IOException
